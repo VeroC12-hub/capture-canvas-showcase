@@ -176,7 +176,7 @@ All colors MUST be HSL.
   }
   
   .image-overlay-hover {
-    @apply relative overflow-hidden group cursor-pointer;
+    @apply relative overflow-hidden cursor-pointer;
   }
   
   .image-overlay-hover::after {
