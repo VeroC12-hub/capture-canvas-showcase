@@ -1,6 +1,6 @@
 import { ArrowRight, Camera } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-portrait.jpg";
+import heroImage from "@/assets/sam-family-hero.jpg";
 
 export function Hero() {
   return (
@@ -27,15 +27,14 @@ export function Hero() {
           
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-playfair font-bold mb-6 leading-tight">
-            Capturing <span className="gold-accent">Stories</span>
+            <span className="gold-accent">Beautiful</span> moments,
             <br />
-            in Every Frame
+            <span className="gold-accent">lasting</span> memories
           </h1>
           
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl mb-8 text-gray-200 font-inter font-light max-w-2xl mx-auto">
-            Professional photography that transforms moments into timeless memories. 
-            Specializing in portraits, weddings, and lifestyle photography.
+          <p className="text-xl md:text-2xl mb-8 text-gray-200 font-inter font-light max-w-3xl mx-auto">
+            "Family is the heart of every memory, and photography captures those moments, turning love into timeless beauty."
           </p>
           
           {/* CTA Buttons */}
@@ -44,7 +43,7 @@ export function Hero() {
               size="lg" 
               className="gold-button text-lg px-8 py-4 group"
             >
-              Book Your Session
+              View My Work
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             
@@ -53,7 +52,7 @@ export function Hero() {
               size="lg" 
               className="text-lg px-8 py-4 border-white text-white hover:bg-white hover:text-primary"
             >
-              View Portfolio
+              Book Session
             </Button>
           </div>
           

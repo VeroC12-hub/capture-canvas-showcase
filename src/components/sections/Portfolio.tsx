@@ -1,63 +1,63 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import weddingImage from "@/assets/portfolio-wedding.jpg";
-import productImage from "@/assets/portfolio-product.jpg";
-import travelImage from "@/assets/portfolio-travel.jpg";
+import portraitImage from "@/assets/sam-portraits.jpg";
+import familyImage from "@/assets/sam-family.jpg";
+import pregnancyImage from "@/assets/sam-pregnancy.jpg";
+import weddingImage from "@/assets/sam-wedding.jpg";
 
-type Category = "all" | "portraits" | "weddings" | "travel" | "product" | "events";
+type Category = "all" | "portraits" | "family" | "pregnancy" | "weddings";
 
 const portfolioItems = [
   {
     id: 1,
-    title: "Romantic Wedding at Sunset",
-    category: "weddings" as Category,
-    image: weddingImage,
-    description: "Beautiful outdoor ceremony with golden hour lighting"
+    title: "Portrait Session",
+    category: "portraits" as Category,
+    image: portraitImage,
+    description: "Capturing personality and essence in professional portraits"
   },
   {
     id: 2,
-    title: "Luxury Product Showcase",
-    category: "product" as Category,
-    image: productImage,
-    description: "Professional product photography with dramatic lighting"
+    title: "Family Moments",
+    category: "family" as Category,
+    image: familyImage,
+    description: "Beautiful family memories that last a lifetime"
   },
   {
     id: 3,
-    title: "Mountain Adventure",
-    category: "travel" as Category,
-    image: travelImage,
-    description: "Breathtaking landscape during sunrise"
+    title: "Maternity Photography",
+    category: "pregnancy" as Category,
+    image: pregnancyImage,
+    description: "Celebrating the miracle of new life with elegant maternity portraits"
   },
   {
     id: 4,
-    title: "Corporate Portrait Session",
-    category: "portraits" as Category,
-    image: weddingImage, // Using placeholder
-    description: "Professional headshots for business leaders"
+    title: "Wedding Celebration",
+    category: "weddings" as Category,
+    image: weddingImage,
+    description: "Timeless wedding photography capturing love and joy"
   },
   {
     id: 5,
-    title: "Birthday Celebration",
-    category: "events" as Category,
-    image: productImage, // Using placeholder
-    description: "Joyful family celebration moments"
+    title: "Family Portraits",
+    category: "family" as Category,
+    image: familyImage,
+    description: "Creating lasting memories with authentic family connections"
   },
   {
     id: 6,
-    title: "Intimate Wedding Ceremony",
-    category: "weddings" as Category,
-    image: travelImage, // Using placeholder
-    description: "Small intimate wedding in a garden setting"
+    title: "Pregnancy Journey",
+    category: "pregnancy" as Category,
+    image: pregnancyImage,
+    description: "Documenting the beautiful journey of motherhood"
   }
 ];
 
 const categories = [
   { id: "all", name: "All Work" },
   { id: "portraits", name: "Portraits" },
-  { id: "weddings", name: "Weddings" },
-  { id: "travel", name: "Travel" },
-  { id: "product", name: "Product" },
-  { id: "events", name: "Events" }
+  { id: "family", name: "Family" },
+  { id: "pregnancy", name: "Pregnancy" },
+  { id: "weddings", name: "Weddings" }
 ];
 
 export function Portfolio() {

@@ -3,44 +3,44 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Sarah & Michael",
-    role: "Wedding Couple",
-    content: "Absolutely incredible! Every photo captured the emotion and joy of our special day. We couldn't have asked for a better photographer. The attention to detail and artistic vision exceeded all our expectations.",
+    name: "Akosua & Olade",
+    role: "Wedding Clients",
+    content: "Two sides, one celebration—groomsmen and bridesmaids, united in love and joy. Sam captured our special day beautifully with such artistic vision.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1494790108755-2616b612b2c5?w=80&h=80&fit=crop&crop=face"
   },
   {
-    name: "Jennifer Chen",
-    role: "Corporate Executive",
-    content: "Professional, creative, and so easy to work with. The portraits turned out stunning and perfectly captured my personality. The session was relaxed and fun, which shows in the final results.",
+    name: "Johnson Family",
+    role: "Family Session",
+    content: "Sam's ability to capture the heart of every memory is incredible. Our family photos are absolutely stunning and we treasure them. The session was so natural and comfortable.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face"
   },
   {
-    name: "David Rodriguez",
-    role: "Travel Blogger",
-    content: "The travel photography session was beyond amazing. Every shot tells a story and captures the essence of our adventure perfectly. These photos will be treasured memories for years to come.",
-    rating: 5,
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face"
-  },
-  {
-    name: "Emma Thompson",
-    role: "New Mom",
-    content: "The family session was magical. They made us feel so comfortable and natural. The photos are beautiful works of art that capture this precious time in our lives perfectly.",
+    name: "Maria Santos",
+    role: "Maternity Session",
+    content: "The pregnancy photos Sam took are beyond beautiful. She captured this special time in our lives with such elegance, care, and artistic flair. Truly magical memories.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face"
   },
   {
-    name: "Marcus Johnson",
-    role: "Business Owner",
-    content: "Outstanding product photography that really elevated our brand. The lighting and composition are flawless, and the turnaround time was incredibly fast. Highly recommend!",
+    name: "The Chen Family",
+    role: "Family Portrait",
+    content: "Strong bonds, sharp looks, unforgettable moments. Sam creates timeless portraits that perfectly capture our family's personality and connection.",
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face"
+  },
+  {
+    name: "Amanda & David",
+    role: "Engagement Session",
+    content: "A wedding is a celebration of love, and Sam's photography freezes those precious moments, turning them into timeless treasures we'll cherish forever.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&h=80&fit=crop&crop=face"
   },
   {
-    name: "Lisa & James",
-    role: "Engagement Couple",
-    content: "From start to finish, the experience was incredible. The photos are stunning and capture our love story beautifully. We can't wait to work together again for our wedding!",
+    name: "Rebecca Williams",
+    role: "Portrait Session",
+    content: "Sam creates timeless moments, prioritizing client satisfaction and delivering exceptional value. The portraits exceeded all my expectations.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=80&h=80&fit=crop&crop=face"
   }

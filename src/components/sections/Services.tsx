@@ -4,57 +4,60 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const services = [
   {
-    icon: Heart,
-    title: "Wedding Photography",
-    description: "Capturing your special day with artistic vision and emotional depth",
+    icon: Camera,
+    title: "Portrait Photography",
+    description: "Professional portraits that capture your unique personality with artistic flair and attention to detail",
     features: [
-      "8 hours of coverage",
-      "500+ edited photos",
-      "Online gallery",
-      "Engagement session included",
-      "USB drive with all images"
+      "Professional lighting setup",
+      "Multiple poses and expressions",
+      "Retouched high-resolution images",
+      "Online gallery delivery",
+      "Print release included"
     ],
-    price: "Starting at $2,500",
+    price: "Starting at $299",
+    popular: false
+  },
+  {
+    icon: Heart,
+    title: "Family Photography",
+    description: "Beautiful family moments captured in natural, authentic settings that showcase your family's unique bond",
+    features: [
+      "Location consultation",
+      "Multiple family combinations", 
+      "Edited high-resolution images",
+      "Print and digital options",
+      "Styling guidance"
+    ],
+    price: "Starting at $399",
     popular: true
   },
   {
-    icon: Camera,
-    title: "Portrait Sessions",
-    description: "Professional portraits that showcase your personality and style",
+    icon: Package,
+    title: "Pregnancy & Maternity",
+    description: "Elegant maternity portraits celebrating the miracle of new life with artistic beauty and grace",
     features: [
-      "1-2 hour session",
-      "50+ edited photos",
-      "Online gallery",
-      "Multiple outfit changes",
-      "Professional retouching"
+      "Wardrobe consultation",
+      "Indoor and outdoor options",
+      "Partner and family inclusion",
+      "Artistic editing",
+      "Newborn session discount"
     ],
-    price: "Starting at $350"
+    price: "Starting at $349",
+    popular: false
   },
   {
-    icon: Plane,
-    title: "Travel Photography",
-    description: "Documenting your adventures and creating lasting travel memories",
+    icon: Heart,
+    title: "Wedding Photography", 
+    description: "Complete wedding day coverage capturing every precious moment from preparation to celebration",
     features: [
       "Full day coverage",
-      "200+ edited photos",
-      "Drone photography included",
-      "Story-telling approach",
-      "Quick preview within 48hrs"
+      "Engagement session included",
+      "Online gallery for sharing",
+      "Print release included",
+      "Timeline planning"
     ],
-    price: "Starting at $800"
-  },
-  {
-    icon: Package,
-    title: "Product Photography",
-    description: "Commercial photography that showcases your products beautifully",
-    features: [
-      "Studio or on-location",
-      "Multiple angles & styles",
-      "High-resolution images",
-      "Commercial usage rights",
-      "Fast 24-hour turnaround"
-    ],
-    price: "Starting at $200"
+    price: "Starting at $1,899",
+    popular: false
   }
 ];
 

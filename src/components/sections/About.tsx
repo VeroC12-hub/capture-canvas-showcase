@@ -1,28 +1,28 @@
 import { Award, Camera, Heart, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import photographerImage from "@/assets/photographer-portrait.jpg";
+import photographerImage from "@/assets/sam-portraits.jpg";
 
 export function About() {
   const achievements = [
     {
-      icon: Award,
-      title: "Award Winner",
-      description: "International Photography Awards 2023"
-    },
-    {
-      icon: Users,
-      title: "500+ Clients",
-      description: "Happy customers worldwide"
-    },
-    {
       icon: Camera,
-      title: "10+ Years",
-      description: "Professional experience"
+      title: "Family Specialist",
+      description: "Expert in family & portrait photography"
     },
     {
       icon: Heart,
-      title: "Passion Driven",
-      description: "Every shot tells a story"
+      title: "Maternity Expert",
+      description: "Specialized pregnancy & maternity sessions"
+    },
+    {
+      icon: Users,
+      title: "Client Focused",
+      description: "Prioritizing satisfaction & value"
+    },
+    {
+      icon: Award,
+      title: "Timeless Quality",
+      description: "Creating lasting memories"
     }
   ];
 
@@ -35,7 +35,7 @@ export function About() {
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src={photographerImage}
-                alt="Professional Photographer"
+                alt="Sam Blessing Photography - Professional portrait work"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
             </div>
@@ -52,29 +52,26 @@ export function About() {
           {/* Content */}
           <div className="animate-fade-in-up">
             <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
-              Meet Your <span className="gold-accent">Photographer</span>
+              About <span className="gold-accent">Sam Blessing</span>
             </h2>
             
             <div className="space-y-6 text-muted-foreground font-inter leading-relaxed">
               <p className="text-lg">
-                Hi, I'm [Your Name], a passionate photographer with over 10 years of experience 
-                capturing life's most precious moments. My journey began with a simple camera and 
-                an eye for beauty in everyday moments.
+                I'm Sam Blessing, a passionate photographer dedicated to capturing the 
+                beautiful moments that make life meaningful. My work focuses on creating 
+                lasting memories through authentic, emotional storytelling.
               </p>
               
               <p>
-                What started as a hobby quickly evolved into a lifelong passion and career. 
-                I specialize in creating timeless, emotional photographs that tell your unique story. 
-                Whether it's the intimate moments of a wedding day, the joy of a family portrait, 
-                or the adventure of travel photography, I bring an artistic vision and professional 
-                expertise to every shoot.
+                Specializing in family portraits, pregnancy photography, and intimate 
+                celebrations, I believe in creating timeless treasures that families 
+                will cherish for generations. Every session is approached with care, 
+                creativity, and attention to the unique story each family brings.
               </p>
               
-              <p>
-                My approach is personal and relaxed, ensuring you feel comfortable and natural 
-                in front of the camera. I believe that the best photographs happen when people 
-                can simply be themselves.
-              </p>
+              <blockquote className="italic text-foreground border-l-4 border-accent pl-4 bg-muted/30 p-4 rounded-r-lg">
+                "We create timeless moments, prioritizing our clients' satisfaction and delivering exceptional value."
+              </blockquote>
             </div>
 
             {/* Achievements Grid */}
@@ -97,7 +94,7 @@ export function About() {
             {/* CTA */}
             <div className="mt-8">
               <Button className="gold-button">
-                Let's Create Together
+                Book Your Session
               </Button>
             </div>
           </div>

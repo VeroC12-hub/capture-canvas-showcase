@@ -21,7 +21,7 @@ export function Navigation() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="text-xl font-playfair font-bold">
-              Your Brand <span className="gold-accent">Name</span>
+              Sam Blessing <span className="gold-accent">Photography</span>
             </h1>
           </div>
 
